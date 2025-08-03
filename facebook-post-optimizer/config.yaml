@@ -1,0 +1,8 @@
+# Configuration example
+model_paths:
+  reach_predictor: models/reach_model.pkl
+  fake_news_detector: models/fake_news_model.pkl
+
+scheduler:
+  post_times: ["08:00", "12:00", "18:00"]
+  min_reach_threshold: 1000
